@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Recommended for You (<?= htmlspecialchars($country) ?>)</h2>
+<ul>
+    <?php foreach ($recommended as $item): ?>
+        <li><?= htmlspecialchars($item) ?> Audiobooks</li>
+    <?php endforeach; ?>
+</ul>
+    <h2>Top 10 Audiobooks</h2>
+<ul>
+</body>
+</html>
